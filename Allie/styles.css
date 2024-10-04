@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+header {
+    background-image: url("assets/dog-party-assets/park.jpg");
+    background-size: cover; /* Cover the entire header */
+    background-position: bottom; /* Focus on the bottom of the image */
+    background-repeat: no-repeat; 
+    padding: 20px;
+    text-align: center;
+    height: 500px; /* Set a height to maintain the visual aspect */
+}
+
+h1 {
+    margin: 0;
+    color: white; /* White text for better readability */
+}
+
+.logo {
+    width: 200px; /* Adjust based on your logo size */
+    height: auto;
+    border-radius: 50%; /* Make logo circular */
+}
+
+input[type="text"], button {
+    width: 300px; /* Same width for both input and button */
+    padding: 10px; /* Same padding for both */
+    margin: 10px 0;
+    border: 2px solid #ccc; /* Same border for both */
+    border-radius: 5px; /* Same border radius for both */
+    box-sizing: border-box; /* Ensures padding and borders are included in the width */
+    font-size: 16px; /* Ensure the same font size for consistency */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border for button */
+    cursor: pointer; /* Pointer cursor for button */
+    height: 46px; /* Explicitly set height to match input */
+    line-height: normal; /* Ensure button's text aligns properly */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between; /* Keep space between the nav items */
+    align-items: center; /* Center items vertically */
+    background-color: rgba(145, 255, 0, 0.8); /* Slight transparency for background */
+    padding: 10px; 
+    border-radius: 10px; /* Optional rounded corners */
+}
+
+.icon {
+    width: 40px; /* Adjust based on your logo size */
+    height: auto;
+    border-radius: 50%; /* Make logo circular */
+}
+
+.nav-list {
+    list-style-type: none; /* Remove bullets from the list */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Display the list items in a row */
+}
+
+.nav-list li {
+    margin-left: 15px; /* Add space between the list items */
+}
+
+.nav-list a {
+    color: white; /* White text for links */
+    text-decoration: none; /* No underline */
+    padding: 6px 10px; /* Add padding around links */
+}
+
+.nav-list a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighten the background on hover */
+    border-radius: 5px; /* Slightly rounded corners for the hover effect */
+}
+
+main {
+    text-align: center; /* Center all main content */
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #007bff; /* Border color for sections */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #e7f1ff; /* Light blue background for sections */
+}
+
+.dog-columns {
+    display: flex; /* Use Flexbox to align children horizontally */
+    justify-content: space-between; /* Space out the columns */
+    flex-wrap: wrap; /* Allow columns to wrap to the next line if there isn't enough space */
+}
+
+.column {
+    flex: 1; /* Allow columns to grow and shrink equally */
+    margin: 10px; /* Add some space between columns */
+    max-width: 30%; /* Adjust this based on how wide you want the columns to be */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+.column-image {
+    width: 150px; /* Set specific width */
+    height: 150px; /* Make sure the height matches the width */
+    object-fit: cover; /* Ensure the image covers the square area without distortion */
+    border-radius: 50%; /* Turn the square into a circle */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff6600; /* Same orange as header */
+    color: white; /* White text */
+    position: relative; /* For positioning */
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: rgb(104, 6, 6); /* White text for footer links */
+    text-decoration: none; /* No underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */ 
+}
+
+.footer-icon {
+    width: 30px; /* Adjust based on your desired size */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Space between icons */
+    vertical-align: middle; /* Align icons vertically with text */
+}

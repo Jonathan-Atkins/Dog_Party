@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+header {
+    background-image: url("assets/dog-party-assets/park.jpg");
+    background-size: cover; /* Cover the entire header */
+    background-position: bottom; /* Focus on the bottom of the image */
+    background-repeat: no-repeat; 
+    padding: 20px;
+    text-align: center;
+    height: 500px; /* Set a height to maintain the visual aspect */
+}
+
+h1 {
+    margin: 0;
+    color: #ffffff; /* White text for better readability */
+}
+
+.logo {
+    width: 200px; /* Adjust based on your logo size */
+    height: auto;
+    border-radius: 50%; /* Make logo circular */
+}
+
+input[type="text"] {
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ccc; /* Light border */
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px 0;
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none;
+    border-radius: 5px; /* Slightly rounded corners */
+    color: white; /* White text */
+    cursor: url('https://cur.cursors-4u.net/nature/nat-8/nat753.cur'), auto; /* Custom cursor */
+    margin-top: 10px; /* Space between button and content */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between; /* Keep space between the nav items */
+    align-items: center; /* Center items vertically */
+    background-color: rgba(0, 200, 255, 0.878); /* Slight transparency for background */
+    padding: 10px; 
+    border-radius: 10px; /* Optional rounded corners */
+}
+
+.icon {
+    width: 40px; /* Adjust based on your logo size */
+    height: auto;
+    border-radius: 50%; /* Make logo circular */
+}
+
+.nav-list {
+    list-style-type: none; /* Remove bullets from the list */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Display the list items in a row */
+}
+
+.nav-list li {
+    margin-left: 15px; /* Add space between the list items */
+}
+
+.nav-list a {
+    color: white; /* White text for links */
+    text-decoration: none; /* No underline */
+    padding: 6px 10px; /* Add padding around links */
+}
+
+.nav-list a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighten the background on hover */
+    border-radius: 5px; /* Slightly rounded corners for the hover effect */
+}
+
+main {
+    text-align: center; /* Center all main content */
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #007bff; /* Border color for sections */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #e7f1ff; /* Light blue background for sections */
+}
+
+.dog-columns {
+    display: flex; /* Use Flexbox to align children horizontally */
+    justify-content: space-between; /* Space out the columns */
+    flex-wrap: wrap; /* Allow columns to wrap to the next line if there isn't enough space */
+}
+
+.column {
+    flex: 1; /* Allow columns to grow and shrink equally */
+    margin: 10px; /* Add some space between columns */
+    max-width: 30%; /* Adjust this based on how wide you want the columns to be */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+.column-image {
+    width: 100%; /* Full width of the column */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 200px; /* Set a max height to control zoom */
+    object-fit: cover; /* Cover the area without distortion */
+    border-radius: 8px; /* Optional: rounded corners for images */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff6600; /* Same orange as header */
+    color: white; /* White text */
+    position: relative; /* For positioning */
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: rgb(104, 6, 6); /* White text for footer links */
+    text-decoration: none; /* No underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */ 
+}
+
+.footer-icon {
+    width: 30px; /* Adjust based on your desired size */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Space between icons */
+    vertical-align: middle; /* Align icons vertically with text */
+}

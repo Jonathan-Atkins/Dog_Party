@@ -1,54 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-    <title>Dog Party</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-</head>
-<nav>
-    <img src="assets/dog-party-assets/dog-icon.svg" alt="Dog Icon" class="icon" />
-    <ul class="nav-list">
-        <li><a href="#how-to-dog">How to Dog</a></li>
-        <li><a href="#what-is-dogs">What is Dogs</a></li>
-        <li><a href="#facts-from-dogs">Facts From Dogs</a></li>
-    </ul>
-</nav>
-<body>
-    <header>
-        <h1>Welcome to the <strong>Dog Party</strong></h1>
-        <img src="assets/dog-party-assets/dog1-sq.jpg" alt="Dog Party Logo" class="logo" /><br>
-        <input type="text" placeholder="Hi Human Friend" /><br>
-        <button>Click for Barks!</button>
-    </header>    
-    <main>
-        <section class="dog-columns">
-            <div class="column" id="how-to-dog">
-                <h2>How To Dog</h2>
-                <img src="assets/dog-party-assets/dog2-sq.jpg" alt="How To Dog" class="column-image">
-                <p>Dogs are wonderful friends and loyal companions. They fill our days with joy, love, and endless fun. Dogs require care, exercise, and social time to thrive. Owning a dog is a rewarding experience filled with learning and growth.</p>
-                <button>HOW</button> <!-- Added button -->
-            </div>
-            <div class="column" id="what-is-dogs">
-                <h2>What Is Dogs</h2>
-                <img src="assets/dog-party-assets/dog3-sq.jpg" alt="What Is Dogs" class="column-image">
-                <p>Dogs are remarkable animals, demanding time, love, and attention. To ensure their health and happiness, they need daily exercise and mental stimulation. Caring for a dog is a long-term commitment requiring dedication and affection.</p>
-                <button>WHAT</button> <!-- Added button -->
-            </div>
-            <div class="column" id="facts-from-dog">
-                <h2>Facts From Dog</h2>
-                <img src="assets/dog-party-assets/dog4-sq.jpg" alt="Facts From Dog" class="column-image">
-                <p>There are many dog breeds across the world, each with unique traits and personalities. Understanding these breeds helps potential owners choose wisely. Some dogs excel in certain tasks, while others are best for companionship and love.</p>
-                <button>FACTS</button> <!-- Added button -->
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>Learn About Dogs Online</p>
-        <a href="#"><img src="assets/dog-party-assets/facebook.svg" alt="Facebook" class="footer-icon" /></a>
-        <a href="#"><img src="assets/dog-party-assets/instagram.svg" alt="Instagram" class="footer-icon" /></a>
-        <a href="#"><img src="assets/dog-party-assets/linkedin.svg" alt="LinkedIn" class="footer-icon" /></a>
-        <a href="#"><img src="assets/dog-party-assets/twitter.svg" alt="Twitter" class="footer-icon" /></a>
-    </footer>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport"
+    content="width=device-width, initial-scale=1.0" />
+        <title>Dog Party</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <img src="assests/cutedog.png" 
+            alt="Dog Party Logo" class="logo"
+            />
+            <nav>
+                <ul class="nav-list">
+                    <li>
+                        <a href="#how-to-dog">How to Dog</a>
+                    </li>
+                    <li>
+                        <a href="#what-is-dogs">What is Dogs</a>
+                    </li>
+                    <li>
+                        <a href="#facts-from-dogs">Facts From Dogs</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>      
+            <section class="hero">
+                <h1>A Site About <strong>Some Dogs</strong></h1>
+                <img src="assests/dog1-sq.jpg"
+                alt="Dog Image" class="hero-image" />
+                <form>
+                    <label for="dog-name">Name</label>
+                    <input type="text" id="dog-name" name="dog-name"
+                    placeholder="Your Dog Name.." />
+                    <button type="submit">Name This Dog</button>
+                </form>
+            </section>
+            <section class="info">
+                <div class="dog-info">
+                    <h2>How To Dog</h2>
+                    <img src="assests/corgi.webp"
+                    alt="Fluff Butt"/>
+                    <div class="overlay">
+                        <div class="text">Fluff Butt</div>
+                      </div>
+                    <p>Corgis, with their stubby legs and fluffy butts, are the embodiment of canine charm and energy. Originally bred for herding cattle, these little dogs are surprisingly agile and quick despite their small stature. Their playful personalities and love for companionship make them excellent family pets. With their signature “smiling” faces and perky ears, corgis are often the center of attention wherever they go. Whether it’s chasing a ball, herding other pets, or lounging on their back with legs in the air, corgis have a knack for bringing joy to their owners with every wag of their tail.</p>
+                    <button class="button button1">Boop Me</button>
+                </div>
+                <div class="dog-info">
+                    <h2>What Is Dog</h2>
+                    <img src="assests/dogDown.jpg"
+                    alt="Paw In Cookie" />
+                    <div class="overlay">
+                        <div class="text">Cookie Monster</div>
+                      </div>
+                    <p>The golden retriever sat expectantly, tail wagging furiously as its owner held out a bone-shaped treat. Its nose twitched, taking in the irresistible aroma of peanut butter and bacon. With a soft “Good boy,” the treat was released, and the dog gingerly took it into its mouth before retreating to its favorite spot on the rug. Holding the treat delicately between its paws, it began to crunch enthusiastically, savoring every bite. Tiny crumbs scattered around as its tail thumped against the floor in pure contentment. Once finished, the dog licked its lips and looked up hopefully, ready for round two.</p>
+                    <button class="button button2">Reach In</button>
+                </div>
+                <div class="dog-info">
+                    <h2>Facts From Dogs</h2>
+                    <img src="assests/doggo.webp"
+                    alt="Doggo" />
+                    <div class="overlay">
+                        <div class="text">Weenie</div>
+                      </div>
+                    <p>This is my professional headshot</p>
+                    <button class="button button3">Click to Bark</button>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
 </html>
